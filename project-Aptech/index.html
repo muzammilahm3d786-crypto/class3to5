@@ -1,0 +1,326 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#211b18">
+    <meta name="description" content="Celebrate Iqbal Day 2026. Explore the life, poetry and philosophy of Allama Muhammad Iqbal.">
+    <title>Iqbal Nama | A Tribute to Allama Iqbal</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700&family=Noto+Nastaliq+Urdu:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <canvas id="particles"></canvas>
+
+    <header class="navbar">
+        <a href="#home" class="logo">Iqbal<span>.</span></a>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <nav id="navLinks">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#poetry">Poetry</a>
+            <a href="#timeline">Timeline</a>
+            <a href="#quiz">Quiz</a>
+        </nav>
+
+        <a href="#poetry" class="nav-btn">Explore Legacy ↗</a>
+    </header>
+
+    <!-- HERO SECTION -->
+    <main>
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+            <div class="tag">
+                ✦ 9 NOVEMBER · IQBAL DAY TRIBUTE ✦
+            </div>
+
+            <h1>
+                THE POET<br>
+                WHO <span>AWAKENED</span><br>
+                A GENERATION.
+            </h1>
+
+            <p class="hero-description">
+                A tribute to the Poet of the East — whose verses stirred hearts,
+                awakened thought and taught generations to rise with purpose.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#about" class="primary-btn">Discover His Story ↗</a>
+                <a href="#poetry" class="secondary-btn">Explore Poetry</a>
+            </div>
+
+            <div class="countdown">
+                <p>COUNTDOWN TO IQBAL DAY</p>
+
+                <div class="countdown-grid">
+                    <div><strong id="days">00</strong><small>DAYS</small></div>
+                    <div><strong id="hours">00</strong><small>HOURS</small></div>
+                    <div><strong id="minutes">00</strong><small>MINUTES</small></div>
+                    <div><strong id="seconds">00</strong><small>SECONDS</small></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-image">
+            <div class="image-ring"></div>
+            <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Iqbal.jpg" onerror="this.onerror=null;this.src='https://commons.wikimedia.org/wiki/Special:FilePath/Mohammad_Iqbal_Lahouri.jpg';"
+                 alt="Portrait of Allama Muhammad Iqbal">
+            <div class="image-caption">
+                <span>1877 — 1938</span>
+                <p>ALLAMA MUHAMMAD IQBAL</p>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">SCROLL TO EXPLORE ↓</div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about" id="about">
+
+        <div class="section-heading">
+            <span class="eyebrow">THE MAN · THE MIND · THE MESSAGE</span>
+            <h2>A Legacy Etched in <span>Time.</span></h2>
+            <p>Explore the many dimensions of the poet, philosopher and thinker.</p>
+        </div>
+
+        <div class="about-grid">
+
+            <div class="about-card glass detail-card" tabindex="0" role="button" aria-label="Learn more about Iqbal the philosopher" data-title="The Philosopher" data-detail="Iqbal’s philosophical thought explored the human self, freedom, faith and the relationship between the individual and society. His idea of Khudi — selfhood — asks people to cultivate character, courage and responsibility rather than surrender to passivity. His lectures were later collected in The Reconstruction of Religious Thought in Islam.">
+                <img class="card-photo" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Iqbal.jpg" onerror="this.onerror=null;this.src='https://commons.wikimedia.org/wiki/Special:FilePath/Mohammad_Iqbal_Lahouri.jpg';" alt="Archival portrait of Allama Iqbal">
+                <span class="card-icon">✦</span>
+                <h3>The Philosopher</h3>
+                <p>
+                    Iqbal explored the relationship between the individual,
+                    society, spirituality and the universe.
+                </p>
+            </div>
+
+            <div class="about-card glass detail-card" tabindex="0" role="button" aria-label="Learn more about Iqbal the poet" data-title="The Poet" data-detail="Writing in Persian and Urdu, Iqbal used poetry to speak about spiritual awakening, dignity, action and hope. Major works include Bang-e-Dra, Bal-e-Jibril, Zarb-e-Kalim and the Persian poem Asrar-e-Khudi. His verses remain widely read and recited across South Asia and beyond.">
+                <img class="card-photo" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Iqbal.jpg" onerror="this.onerror=null;this.src='https://commons.wikimedia.org/wiki/Special:FilePath/Mohammad_Iqbal_Lahouri.jpg';" alt="Archival portrait of Allama Iqbal">
+                <span class="card-icon">✒</span>
+                <h3>The Poet</h3>
+                <p>
+                    His powerful poetry inspired self-discovery, courage,
+                    ambition and a deeper understanding of life.
+                </p>
+            </div>
+
+            <div class="about-card glass detail-card" tabindex="0" role="button" aria-label="Learn more about Iqbal the visionary" data-title="The Visionary" data-detail="In his 1930 Allahabad Address, Iqbal articulated a political vision for the reorganisation of Muslim-majority regions in north-western India. He is remembered as an important intellectual influence on the Pakistan Movement, while his legacy also reaches far beyond politics through his poetry and philosophy.">
+                <img class="card-photo" loading="lazy" src="https://commons.wikimedia.org/wiki/Special:FilePath/Iqbal.jpg" onerror="this.onerror=null;this.src='https://commons.wikimedia.org/wiki/Special:FilePath/Mohammad_Iqbal_Lahouri.jpg';" alt="Archival portrait of Allama Iqbal">
+                <span class="card-icon">★</span>
+                <h3>The Visionary</h3>
+                <p>
+                    His political thought helped shape the intellectual
+                    foundations of the idea of Pakistan.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="about-story">
+            <div>
+                <span class="eyebrow">HIS JOURNEY</span>
+                <h2>Dream. Think.<br><span>Rise.</span></h2>
+            </div>
+
+            <p>
+                Born on 9 November 1877 in Sialkot, British India,
+                Allama Muhammad Iqbal became one of the most influential
+                poets and thinkers of the Muslim world. His philosophy
+                of Khudi encouraged people to discover their inner
+                strength, build character and rise above limitations.
+                Today, his words continue to inspire millions.
+            </p>
+        </div>
+    </section>
+
+    <!-- POETRY SECTION -->
+    <section class="section poetry" id="poetry">
+
+        <div class="section-heading">
+            <span class="eyebrow">WORDS THAT INSPIRE</span>
+            <h2>The Power of <span>Poetry.</span></h2>
+            <p>Explore some of Iqbal's most celebrated verses.</p>
+        </div>
+
+        <div class="poetry-grid">
+
+            <article class="poetry-card glass">
+                <span class="poetry-number">01 / KHUDI</span>
+                <h3 class="urdu">
+                    خودی کو کر بلند اتنا کہ ہر تقدیر سے پہلے
+                </h3>
+                <p class="translation">
+                    Raise your selfhood so high that before every destiny...
+                </p>
+                <button class="quote-btn" data-quote="خودی کو کر بلند اتنا کہ ہر تقدیر سے پہلے">
+                    Copy Verse ↗
+                </button>
+            </article>
+
+            <article class="poetry-card glass">
+                <span class="poetry-number">02 / AMBITION</span>
+                <h3 class="urdu">
+                    ستاروں سے آگے جہاں اور بھی ہیں
+                </h3>
+                <p class="translation">
+                    Beyond the stars, there are worlds still waiting to be explored.
+                </p>
+                <button class="quote-btn" data-quote="ستاروں سے آگے جہاں اور بھی ہیں">
+                    Copy Verse ↗
+                </button>
+            </article>
+
+            <article class="poetry-card glass">
+                <span class="poetry-number">03 / SELF-BELIEF</span>
+                <h3 class="urdu">
+                    نہیں ہے ناامید اقبال اپنی کشت ویراں سے
+                </h3>
+                <p class="translation">
+                    Iqbal is not without hope for his barren field.
+                </p>
+                <button class="quote-btn" data-quote="نہیں ہے ناامید اقبال اپنی کشت ویراں سے">
+                    Copy Verse ↗
+                </button>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section timeline-section" id="timeline">
+
+        <div class="section-heading">
+            <span class="eyebrow">HISTORICAL JOURNEY</span>
+            <h2>A Life of <span>Greatness.</span></h2>
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-item">
+                <span class="timeline-year">1877</span>
+                <div class="timeline-content glass">
+                    <h3>Birth of a Visionary</h3>
+                    <p>Born on 9 November in Sialkot.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-year">1899</span>
+                <div class="timeline-content glass">
+                    <h3>Academic Excellence</h3>
+                    <p>Completed his master's degree in philosophy at Government College Lahore.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-year">1905</span>
+                <div class="timeline-content glass">
+                    <h3>Journey to Europe</h3>
+                    <p>Travelled to Europe for advanced studies.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-year">1930</span>
+                <div class="timeline-content glass">
+                    <h3>Allahabad Address</h3>
+                    <p>Presented his historic vision for a Muslim-majority political unit in northwestern India.</p>
+                </div>
+            </div>
+
+            <div class="timeline-item">
+                <span class="timeline-year">1938</span>
+                <div class="timeline-content glass">
+                    <h3>An Eternal Legacy</h3>
+                    <p>Passed away on 21 April in Lahore, leaving a lasting intellectual legacy.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- QUIZ SECTION -->
+    <section class="section quiz-section" id="quiz">
+
+        <div class="section-heading">
+            <span class="eyebrow">TEST YOUR KNOWLEDGE</span>
+            <h2>How Well Do You <span>Know Iqbal?</span></h2>
+            <p>Challenge yourself with this interactive quiz.</p>
+        </div>
+
+        <div class="quiz-box glass">
+            <div class="quiz-top">
+                <span id="questionCount">QUESTION 01 / 05</span>
+                <span id="score">SCORE: 0</span>
+            </div>
+
+            <div class="progress-track">
+                <div id="progress"></div>
+            </div>
+
+            <h3 id="question">Where was Allama Iqbal born?</h3>
+
+            <div id="answers" class="answers"></div>
+
+            <p id="feedback" aria-live="polite"></p>
+
+            <button id="nextQuestion" class="primary-btn" disabled>
+                Next Question →
+            </button>
+        </div>
+
+    </section>
+
+    <!-- FINAL MESSAGE -->
+    <section class="final-section">
+        <span class="eyebrow">A MESSAGE FOR GENERATIONS</span>
+
+        <h2 class="urdu final-urdu">
+            ستاروں سے آگے جہاں اور بھی ہیں
+        </h2>
+
+        <p>
+            "Beyond the stars, there are worlds still waiting."
+        </p>
+
+        <h3>KEEP DREAMING. KEEP RISING.</h3>
+
+        <a href="#home" class="primary-btn">Back to Top ↑</a>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="logo">IQBAL<span>.</span></div>
+        <p>Celebrating the legacy of Allama Muhammad Iqbal · 9 November 2026</p>
+        <p class="copyright">Created with ♥ to honour the Poet of the East.</p>
+    </footer>
+
+    <div class="detail-modal" id="detailModal" aria-hidden="true">
+        <div class="modal-backdrop" data-close-modal></div>
+        <section class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+            <button class="modal-close" type="button" aria-label="Close details" data-close-modal>×</button>
+            <span class="eyebrow">FROM THE LIFE & LEGACY</span>
+            <h2 id="modalTitle"></h2>
+            <p id="modalText"></p>
+            <button class="primary-btn modal-done" type="button" data-close-modal>Return to the tribute</button>
+        </section>
+    </div>
+    <div id="toast" class="toast" role="status"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
