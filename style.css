@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    top: 0;
+    box-sizing: border-box;
+}
+.container{
+
+    background-color: black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column    
+}
+.box{
+    background-color: grey;
+    border: 2px solid white;
+    margin: 10px;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 25px;
+    margin-right: 1150px;
+    transform: translateY(-10px);
+}
+.box-b{
+    margin-left: 200px;
+    margin-right: 950px;
+}
+.box-c{
+    margin-left: 400px;
+    margin-right: 750px;
+}
+.box-d{
+    margin-left: 600px;
+    margin-right: 550px;
+}
+.box-e{
+    margin-left: 800px;
+    margin-right: 350px;
+}
+.box-f{
+    margin-left: 1000px;
+    margin-right: 150px;
+}
+.box-g{
+    margin-left: 1150px;
+    margin-right: 0;
+}
+.box-h{
+    margin-left: 1000px;
+    margin-right: 150px;
+}
+.box-i{
+    margin-left: 800px;
+    margin-right: 350px;
+}
+.box-j{
+    margin-left: 600px;
+    margin-right: 550px;
+}
+.box-k{
+    margin-left: 400px;
+    margin-right: 750px;
+}
+.box-l{
+    margin-left: 200px;
+    margin-right: 950px;
+}
+.box-n{
+    margin-left: 200px;
+    margin-right: 950px;
+}
+.box-o{
+    margin-left: 400px;
+    margin-right: 750px;
+}
+.box-p{
+    margin-left: 600px;
+    margin-right: 550px;
+}
+.box-q{
+    margin-left: 800px;
+    margin-right: 350px;
+
+}
+.box-r{
+    margin-left: 1000px;
+    margin-right: 150px;
+
+}
+.box-s{
+    margin-left: 1150px;
+    margin-right: 0;
+
+}
+.box-t{
+    margin-left: 1000px;
+    margin-right: 150px;
+}
+.box-u{
+    margin-left: 800px;
+    margin-right: 350px;
+}
+.box-v{
+    margin-left: 600px;
+    margin-right: 550px;
+}
+.box-w{
+    margin-left: 400px;
+    margin-right: 750px;
+}
+.box-x{
+    margin-left: 200px;
+    margin-right: 950px;
+}
+.box-z{
+    margin-left: 200px;
+    margin-right: 950px;
+}
+.box:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border-color: rgba(83, 81, 81, 0.822);
+    border-radius: 50px;
+    transform: translate(10px);
+    transition: 0.5s; 
+
+}
+
