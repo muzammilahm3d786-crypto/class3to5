@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-B/GM4XqrwHnWXNOWMbloTmrYXZg10cakYGmpfsR/bbzQ6JAJI4ihuyADKLnBgrCe" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+  </style>
+</head>
+
+<body class="bg-muted-accent">
+  <div class="container-fluid bg-accent">
+    <nav class="navbar sm:navbar-expand bg-accent fg-2">
+      <div class="container-fluid">
+        <a class="navbar-brand fs-lg fg-white" href="#">NEXORA</a>
+        <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+        <dialog class="drawer drawer-end" tabindex="-1" id="navbarNavAltMarkup"
+          aria-labelledby="navbarNavAltMarkupLabel">
+          <div class="drawer-header">
+            <h5 class="drawer-title" id="navbarNavAltMarkupLabel">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
+          </div>
+          <div class="drawer-body ms-auto">
+            <div class="nav nav-pills navbar-nav bg-accent">
+              <a class="nav-link fg-white" href="#home">Home</a>
+              <a class="nav-link fg-white" href="#aboutus">About Us</a>
+              <a class="nav-link fg-white" href="#programs">Programs</a>
+              <a class="nav-link fg-white" href="#joinus">Join us</a>
+            </div>
+          </div>
+        </dialog>
+      </div>
+    </nav>
+  </div>
+  <section id="home">
+    <div id="carouselExampleContent" class="carousel slide">
+      <div class="carousel-inner rounded-5">
+        <div class="carousel-item active">
+          <div class="d-flex flex-column justify-content-center bg-subtle-accent p-9 bg-1 rounded-5"
+            style="min-height: 400px;">
+            <h3 class="fs-2xl">Explore Beyond Limits.</h3>
+            <h3 class="fs-1xl">Create the Future.</h3>
+            <p class="fg-dark mb-3 ">Welcome to NEXORA, where innovation meets imagination. Discover new technologies,
+              develop digital skills, and turn your ideas into reality.</p>
+            <div><a class="btn-solid theme-accent" href="#programs">Explore Programs</a></div>
+          </div>
+        </div>
+  </section>
+  <section id="aboutus">
+    <div class="container-fluid bg-subtle-accent rounded-5 m-3 p-5">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-4">
+          <h1 class="text-center fs-xl">NEXORA TECH</h1>
+          <h4 class="text-center fs-lg">Where Innovation Meets Imagination</h4>
+          <p class="text-center fs-md">Welcome to NEXORA TECH, a community built for curious minds, creative thinkers,
+            and future innovators.
+
+            We believe technology is more than just computers and code — it's a powerful tool for transforming ideas
+            into reality. Our goal is to inspire students and technology enthusiasts to explore the digital world,
+            develop valuable skills, and discover new opportunities.
+
+            At NEXORA, we focus on learning, creativity, collaboration, and innovation. From h4 development and
+            programming to artificial intelligence and emerging technologies, we encourage everyone to think differently
+            and build something meaningful.</p>
+          <h4 class="text-center fs-lg">Our Mission</h4>
+          <p class="text-center fs-md">To empower the next generation with technological knowledge, practical skills,
+            and the confidence to shape
+            the future.</p>
+          <h4 class="text-center fs-lg">Our Vision</h4>
+          <p class="text-center fs-md">To create a world where creativity and technology come together to make a
+            difference.</p>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid bg-subtle-accent rounded-5 m-5">
+      <div class="row">
+        <h4 class="text-center fs-lg mt-3">Our Core Values:</h4>
+        <div class="card bg-accent m-3 col-12 col-md-6 col-lg-3" style="max-width: 320px;">
+          <div class="card-body">
+            <i class="bi bi-lightbulb" style="color: white;"></i>
+            <h4 class="card-title fg-white">Innovation</h4>
+            <p class="card-text fg-white">Think beyond boundaries.</p>
+          </div>
+        </div>
+        <div class="card bg-accent m-3 col-12 col-md-6 col-lg-3" style="max-width: 320px;">
+          <div class="card-body">
+            <i class="bi bi-mortarboard" style="color: white;"></i>
+            <h4 class="card-title fg-white">Learning</h4>
+            <p class="card-text fg-white">Never stop discovering.</p>
+          </div>
+        </div>
+        <div class="card bg-accent m-3 col-12 col-md-6 col-lg-3" style="max-width: 320px;">
+          <div class="card-body">
+            <i class="bi bi-people" style="color: white;"></i>
+            <h4 class="card-title fg-white">Collaboration</h4>
+            <p class="card-text fg-white">Grow and achieve together.</p>
+          </div>
+        </div>
+        <div class="card bg-accent m-3 col-12 col-md-6 col-lg-3" style="max-width: 320px;">
+          <div class="card-body">
+            <i class="bi bi-rocket-takeoff" style="color: white;"></i>
+            <h4 class="card-title fg-white">Creativity</h4>
+            <p class="card-text fg-white">Turn ideas into reality.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="programs">
+    <div class="container">
+      <div class="row justify-content-center gap-5">
+        <section class="card col-12 col-md-6 col-lg-3 bg-accent my-5" style="max-width: 320px">
+          <img src="assets/img4.jfif" class="card-img-top" alt="...">
+          <div class="card-body bg-accent">
+            <h4 class="card-title fg-white">Programming</h4>
+            <p class="card-text fg-white">Turn logical thinking into real solutions.</p>
+            <a href="#" class="btn-solid theme-muted-accent">Join Now</a>
+          </div>
+        </section>
+        <section class="card col-12 col-md-6 col-lg-3 bg-accent my-5" style="max-width: 320px">
+          <img src="assets/img2.0.jfif" class="card-img-top" alt="...">
+          <div class="card-body bg-accent">
+            <h4 class="card-title fg-white">Artificial Intelligence</h4>
+            <p class="card-text fg-white">Discover the power of intelligent machines.</p>
+            <a href="#" class="btn-solid theme-muted-accent">Join Now</a>
+          </div>
+        </section>
+        <section class="card col-12 col-md-6 col-lg-3 bg-accent my-5" style="max-width: 320px">
+          <img src="assets/img01.jfif" class="card-img-top" alt="...">
+          <div class="card-body bg-accent">
+            <h4 class="card-title fg-white">Web Development</h4>
+            <p class="card-text fg-white">Build modern and responsive websites.</p>
+            <a href="#" class="btn-solid theme-muted-accent">Join Now </a>
+          </div>
+        </section>
+        <section class="card col-12 col-md-6 col-lg-3 bg-accent my-5" style="max-width: 320px">
+          <img src="assets/img3.jfif" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title fg-white">Cybersecurity</h4>
+            <p class="card-text fg-white">Explore digital security and protection.</p>
+            <a href="#" class="btn-solid theme-muted-accent">Join Now</a>
+          </div>
+        </section>
+      </div>
+    </div>
+  </section>
+  <section id="joinus" class="bg-subtle-accent rounded-5 m-10"
+    style="min-height: 100vh; display: flex; justify-content: center; align-items: center;">
+    <div class="container bg-accent rounded-5 p-5 m-5" style="max-width: 750px; width: 100%;">
+      <div class="form-field">
+        <label for="exampleFormControlInput1" class="form-label fg-white">Full Name</label>
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your Full Name">
+      </div>
+      <div class="form-field">
+        <label for="exampleFormControlInput1" class="form-label fg-white">Email address</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+        <div class="form-text fg-white">
+          We’ll never share your email with anyone else.
+        </div>
+      </div>
+      <div class="form-field">
+        <label for="exampleFormControlSelect2" class="form-label fg-white">Select Your Course</label>
+        <select class="form-control" id="exampleFormControlSelect2" placeholder="Choose One">
+          <option value="1">Programming</option>
+          <option value="2">Artificial Intelligence</option>
+          <option value="3">Web Development</option>
+          <option value="4">Cybersecurity</option>
+        </select>
+      </div>
+      <button class="btn btn-solid theme-muted-accent my-5 align-content-center">Join Now</button>
+    </div>
+
+  </section>
+
+
+
+  <script type="module" src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

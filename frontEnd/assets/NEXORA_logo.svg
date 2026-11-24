@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000" role="img" aria-labelledby="title desc">
+  <title id="title">NEXORA TECH logo</title>
+  <desc id="desc">A turquoise circuit-inspired N symbol above the white NEXORA wordmark and turquoise TECH lettering on a dark navy background.</desc>
+  <rect width="1000" height="1000" fill="#101625"/>
+  <g fill="none" stroke="#12B8BE" stroke-width="13" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Geometric circuit-inspired N symbol -->
+    <path d="M382 286 H433 V438 H382 Z"/>
+    <path d="M567 286 H618 V438 H567 Z"/>
+    <path d="M407 300 L593 424"/>
+    <path d="M433 286 L567 376"/>
+    <path d="M433 438 L567 438"/>
+    <path d="M567 286 L567 438"/>
+    <path d="M382 286 L382 438"/>
+    <path d="M407 300 L407 337"/>
+    <path d="M593 424 L593 386"/>
+  </g>
+  <g fill="#101625" stroke="#12B8BE" stroke-width="8">
+    <circle cx="407" cy="300" r="10"/>
+    <circle cx="593" cy="424" r="10"/>
+    <circle cx="433" cy="337" r="8"/>
+    <circle cx="567" cy="386" r="8"/>
+  </g>
+  <text x="500" y="570" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="126"
+        font-weight="700" letter-spacing="7" fill="#F7F8FC">NEXORA</text>
+  <text x="500" y="650" text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif" font-size="58"
+        font-weight="500" letter-spacing="22" fill="#12B8BE">TECH</text>
+</svg>
